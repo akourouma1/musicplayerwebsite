@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    background: url(musicpic.png) no-repeat;
+    background-size:cover;
+    height: 100vh;
+    color: rgb(136, 117, 238);
+    line-height: 80px;
+  
+    
+}
+
+.navbar {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color:pink;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+
+}
+.logo{
+    position: relative;
+    left: 155px;
+    top: 10px;
+    width: 60px;
+    height: 60px;
+    
+}
+.buttons{
+    float: right;
+    margin-right: 5%;
+    margin-top: 550px;
+    display: flex;
+    align-items: center;
+
+}
+.buttons p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+#icon{
+    width: 80px;
+    cursor: pointer;
+}
+
